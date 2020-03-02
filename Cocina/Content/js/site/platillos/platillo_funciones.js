@@ -410,9 +410,9 @@ function filtrarPorTipo() {
     .join("|");
 
   // Buscamos el valor en la tabla de activos
-    tabla_pActivos.column(1).search(positions, true, false, false).draw(false);
+    tabla_pActivos.column(2).search(positions, true, false, false).draw(false);
   // Buscamos el valor en la tabla de inactivos
-    tabla_pInactivos.column(1).search(positions, true, false, false).draw(false);
+    tabla_pInactivos.column(2).search(positions, true, false, false).draw(false);
 }
 
 // Funcion para limpiar los campos del formulario
