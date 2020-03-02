@@ -1,0 +1,149 @@
+﻿<link href="~/Content/css/Stylesheets/main.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+@{
+    ViewBag.Title = "Ticket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Solicitudes de cambio y cancelacion de platillos</h2>
+
+<div class="section-block">
+    <table id="tablaPendientes" class="hover display responsive nowrap" style="width:100%">
+        <thead>
+            <tr class="table-dark text-dark">
+                <th>No. de Control</th>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Fecha de Cambio</th>
+                <th>Tipo de Solicitud</th>
+                <th>Platillo Registrado</th>
+                <th>Platillo Solicitado</th>
+                <th>Aprobar</th>
+                <th>Rechazar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.Pendientes)
+            {
+                <tr style="text-align:center">
+                    <td>@item.NoEmpleado</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.ApellidoPaterno</td>
+                    <td>@item.FechaDeSolicitud</td>
+                    <td>@item.TipoDeSolicitud</td>
+                    <td>@item.PlatilloActual</td>
+                    <td>@item.PlatilloSolicitado</td>
+                    <td>
+                        @using (Html.BeginForm("Aprobar", "Tickets", new { id = item.Id , regId = item.RegistarMenuUsuarioId, menuId = item.PlatilloSolicitado }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <button id="btn-cambio" type="submit" class="btn btn-success btn-lg">
+                                <span class="oi oi-warning"> Aprobar</span>
+                            </button>
+                        }
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("Rechazar", "Tickets", new { id = item.Id }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <button id="btn-cambio" type="submit" class="btn btn-danger btn-lg">
+                                <span class="oi oi-warning"> Rechazar</span>
+                            </button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="section-block">
+    <table id="tablaAtendidos" class="hover display responsive nowrap" style="width:100%">
+        <thead>
+            <tr class="table-dark text-dark">
+                <th>No. de Control</th>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Fecha de Cambio</th>
+                <th>Tipo de Solicitud</th>
+                <th>Platillo Registrado</th>
+                <th>Platillo Solicitado</th>
+                <th>Estatus</th>
+                <th>Rechazar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.Atendidos)
+            {
+                <tr style="text-align:center">
+                    <td>@item.NoEmpleado</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.ApellidoPaterno</td>
+                    <td>@item.FechaDeSolicitud</td>
+                    <td>@item.TipoDeSolicitud</td>
+                    <td>@item.PlatilloActual</td>
+                    <td>@item.PlatilloSolicitado</td>
+                    @if (item.Estatus == "2")
+                    {
+                        <td>Aprobada</td>
+                    }
+                    else
+                    {
+                        <td>Rechazada</td>
+                    }
+
+                    <td>
+                        @using (Html.BeginForm("Deshacer", "Tickets", new { id = item.Id, regId = item.RegistarMenuUsuarioId, menuId = item.PlatilloActual }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <button id="btn-cambio" type="submit" class="btn btn-warning btn-lg">
+                                <span class="oi oi-warning"> Deshacer</span>
+                            </button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js" defer></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" defer></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" defer></script>
+
+<script>
+    $(document).ready(function () {
+        $("#tablaPendientes").DataTable({
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
+            },
+            "info": false
+        });
+    });
+
+    $(document).ready(function () {
+        $("#tablaAtendidos").DataTable({
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Spanish.json"
+            },
+            "info": false
+        });
+    });
+</script>
+
+<script>
+    //Funcion para visualizar el mensaje de exito o no exito
+    var Mensaje = '@ViewBag.sms'
+    if (Mensaje == "Aprobar") {
+        swal("Se aprobó exitosamente", "La solicitud", "success");
+    } else if (Mensaje == "Rechazar") {
+        swal("Se rechazo exitosamente", "La solicitud", "success");
+    } else if (Mensaje == "Deshacer") {
+        swal("Se deshizo exitosamente", "La solicitud", "success");
+    }
+</script>
+

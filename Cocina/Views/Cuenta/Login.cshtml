@@ -1,0 +1,164 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <!-- TODO: INICIA META TAGS (REQUERIDOS) -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- ! TERMINA META TAGS (REQUERIDOS)-->
+    <title>SISCO | Coqueta - Sistema de Comedor</title>
+    <!-- TODO: INICIA FAVICONS -->
+    <link rel="shortcut icon" href="~/Content/images/business/favicon.ico" />
+    <!-- ! TERMINA FAVICONS -->
+    <!-- TODO: INICIA ESTILOS DE PLUGINS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/fontawesome/css/all.css" />
+    <!-- ! TERMINA ESTILOS DE PLUGINS -->
+    <!-- TODO: INICIA ESTILOS DE LA PAGINA -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/stylesheets/custom.css" />
+    <!-- ! TERMINA ESTILOS DE LA PAGINA -->
+</head>
+
+<body>
+    <!-- TODO: ------------------------------ INICIA FONDO DE PARTICULAS ------------------------------ -->
+    <div id="particles-js" class="fondo-particulas"></div>
+    <!-- ! ---------------------------------- TERMINA FONDO DE PARTICULAS ----------------------------- -->
+    <!-- TODO: ----------------------------------- INICIA CONTENIDO ----------------------------------- -->
+    <!-- * .contenedor -->
+    <div class="contenedor">
+        <!-- * .tarjeta -->
+        <div class="tarjeta" id="card">
+            <!-- * .tarjeta-cara -->
+            <div class="front">
+                <!-- * .tarjeta-cara-codigo -->
+                <div class="tarjeta-codigo">
+                    <div class="fondo-codigo">
+                        <img src="~/Content/images/business/Codigo-QR.png">
+                    </div>
+                </div>
+                <!-- / .tarjeta-cara-codigo -->
+                <!-- * .tarjeta-cara-presentacion -->
+                <div class="superponer-contenedor">
+                    <div class="superponer-tarjeta">
+                        <div class="tarjeta-presentacion">
+                            <img src="~/Content/images/business/Logo.png">
+                            <h4>Bienvenido!</h4>
+                            <p>
+                                Escanea el codigo QR o presiona el boton de "Checar Menu" para poder consultar el menu de
+                                la semana
+                            </p>
+                            <div class="contenedor-links">
+                                <a id="flip-btn"><i class="fas fa-sign-in-alt"></i>&nbsp; Inicia Sesion</a>
+                                <a><i class="fas fa-calendar-week"></i>&nbsp; Checar Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / .tarjeta-cara-presentacion -->
+            </div>
+            <!-- / .tarjeta-cara -->
+            <!-- * .tarjeta-reverso -->
+            <div class="back">
+                <!-- * .tarjeta-reverso-contenedor -->
+                <div id="container">
+                    <!-- * .tarjeta-reverso-contenedor-recuperar -->
+                    <div class="contenedor-formulario reestablecer-contraseña">
+                        <form id="form-olvidar">
+                            <h1>Reestablesca su contraseña</h1>
+                            <div class="form-label-group">
+                                <input type="email" id="inputEmail" name="inputEmail" class="form-control"
+                                       placeholder="Correo electronico" required autofocus>
+                                <label for="inputEmail">Correo Electronico</label>
+                            </div>
+                            <p class="text-muted">
+                                <small>
+                                    Le enviaremos un enlace para restablecer la contraseña a su correo
+                                    electrónico.
+                                </small>
+                            </p>
+                            <button>Continuar</button>
+                        </form>
+                    </div>
+                    <!-- / .tarjeta-reverso-contenedor-recuperar -->
+                    <!-- * .tarjeta-reverso-contenedor-iniciarSesion -->
+                    <div class="contenedor-formulario iniciar-sesion">
+                        <form id="form-inicio">
+                            <h1>Inicia sesión</h1>
+                            <span>para usar tu cuenta</span>
+                            <div class="form-label-group">
+                                <input type="text" id="inputEmpleado" name="inputEmpleado" class="form-control"
+                                       placeholder="No. Empleado">
+                                <label for="inputEmpleado">Numero de Empleado</label>
+                                <p id="inputEmpleado"></p>
+                            </div>
+                            <div class="form-label-group">
+                                <input type="password" id="inputContraseña" name="inputContraseña" class="form-control"
+                                       placeholder="Contraseña" required>
+                                <label for="inputContraseña">Contraseña</label>
+                            </div>
+                            <a id="signUp" class="tx-12 d-block mg-t-10">Se te olvidó tu contraseña?</a>
+                            <button class="btn-block">
+                                <i class="fas fa-sign-in-alt"></i>
+                                Entrar
+                            </button>
+                        </form>
+                    </div>
+                    <!-- / .tarjeta-reverso-contenedor-iniciarSesion -->
+                    <!-- * .tarjeta-reverso-cobertura -->
+                    <div class="superponer-contenedor">
+                        <div class="superponer-tarjeta">
+                            <!-- * .tarjeta-reverso-cobertura-izquierda -->
+                            <div class="superponer-panel panel-izquierdo img-panel-izquierdo">
+                                <h1>Olvido su contraseña?</h1>
+                                <p>
+                                    Para restablecer su contraseña favor de ingresar su correo electronico.
+                                </p>
+                                <div class="contenedor-links">
+                                    <a id="signIn"><i class="fas fa-sign-in-alt"></i>&nbsp; Inicia Sesion</a>
+                                    <a id="unflip2-btn"><i class="fas fa-calendar-week"></i>&nbsp; Checar Menu</a>
+                                </div>
+                            </div>
+                            <!-- / .tarjeta-reverso-cobertura-izquierda -->
+                            <!-- * .tarjeta-reverso-cobertura-derecha -->
+                            <div class="superponer-panel panel-derecho img-panel-derecho">
+                                <h1>Quieres entrar al sistema?</h1>
+                                <p>Ingrese su numero de empleado y contraseña para acceder a la cuenta.</p>
+                                <button id="unflip-btn" class="ghost">
+                                    <i class="fas fa-calendar-week"></i> Regresar al
+                                    calendario
+                                </button>
+                            </div>
+                            <!-- / .tarjeta-reverso-cobertura-derecha -->
+                        </div>
+                    </div>
+                    <!-- / .tarjeta-reverso-cobertura -->
+                </div>
+                <!-- / .tarjeta-reverso-contenedor -->
+            </div>
+            <!-- / .tarjeta-reverso -->
+        </div>
+        <!-- / .tarjeta -->
+    </div>
+    <!-- / .contenedor -->
+    <!-- ! -------------------------------------- TERMINA CONTENIDO ----------------------------------- -->
+
+    <!-- TODO: INICIA BASES DE JS -->
+    <script type="text/javascript" src="~/Content/js/jquery/jquery.core/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="~/Content/js/bootstrap/bootstrap.js"></script>
+    <script type="text/javascript" src="~/Content/js/bootstrap/popper.min.js"></script>
+    <!-- ! TERMINA BASES DE JS -->
+    <!-- TODO: INICIA PLUGINS DE JS -->
+    <script type="text/javascript" src="~/Content/js/particles.js/particles.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery/jquery.flip/jquery.flip.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery/jquery.validation/jquery.validate.js"></script>
+    <!-- ! TERMINA PLUGINS DE JS -->
+    <!-- TODO: INICIA FUNCIONES DE ESTILO JS-->
+    <script type="text/javascript" src="~/Content/js/site/login/login_funciones.js"></script>
+    <!-- ! INICIA FUNCIONES DE ESTILO JS-->
+</body>
+
+</html>

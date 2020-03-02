@@ -1,0 +1,377 @@
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\obj\Debug\Cocina.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\obj\Debug\Cocina.pdb
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\ApplicationInsights.config
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Cocina.dll.config
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Cocina.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Cocina.pdb
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\csc.exe
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\csc.exe.config
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\csc.rsp
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\csi.exe
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\csi.rsp
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\System.AppContext.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\vbc.exe
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\vbc.exe.config
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\vbc.rsp
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Antlr3.Runtime.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\EntityFramework.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\EntityFramework.SqlServer.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.Web.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.ApplicationInsights.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Newtonsoft.Json.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\PagedList.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\PagedList.Mvc.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.Helpers.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.Mvc.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.Optimization.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.Razor.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.WebPages.Deployment.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.WebPages.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.WebPages.Razor.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\WebGrease.dll
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Antlr3.Runtime.pdb
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\EntityFramework.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\EntityFramework.SqlServer.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.Web.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.ApplicationInsights.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\Newtonsoft.Json.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\PagedList.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\PagedList.Mvc.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.Helpers.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.Mvc.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.Razor.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.WebPages.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.WebPages.Deployment.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.WebPages.Razor.xml
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\bin\System.Web.Optimization.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\ApplicationInsights.config
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Cocina.dll.config
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Cocina.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Cocina.pdb
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\csc.exe
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\csc.exe.config
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\csc.rsp
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\csi.exe
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\csi.rsp
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\System.AppContext.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\vbc.exe
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\vbc.exe.config
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\vbc.rsp
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Antlr3.Runtime.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\EntityFramework.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\EntityFramework.SqlServer.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.Web.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.ApplicationInsights.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Newtonsoft.Json.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\PagedList.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\PagedList.Mvc.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.Helpers.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.Mvc.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.Optimization.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.Razor.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Deployment.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Razor.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\WebGrease.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Antlr3.Runtime.pdb
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\EntityFramework.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\EntityFramework.SqlServer.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.Web.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.ApplicationInsights.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\Newtonsoft.Json.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\PagedList.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\PagedList.Mvc.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.Helpers.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.Mvc.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.Razor.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Deployment.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Razor.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\bin\System.Web.Optimization.xml
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\obj\Debug\SISCO.csprojResolveAssemblyReference.cache
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\obj\Debug\Cocina.dll
+C:\Users\f.soto\source\repos\s783\SISCO\Cocina\obj\Debug\Cocina.pdb
+C:\Users\m.camarillo\Documents\GitHub\SISCO\Cocina\obj\Debug\SISCO.csprojResolveAssemblyReference.cache
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\ApplicationInsights.config
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Cocina.dll.config
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Cocina.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Cocina.pdb
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\csc.exe
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\csc.exe.config
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\csc.rsp
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\csi.exe
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\csi.rsp
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\System.AppContext.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\vbc.exe
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\vbc.exe.config
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\vbc.rsp
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Antlr3.Runtime.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\EntityFramework.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\EntityFramework.SqlServer.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.Web.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.ApplicationInsights.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Newtonsoft.Json.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\PagedList.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\PagedList.Mvc.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.Helpers.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.Mvc.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.Optimization.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.Razor.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Deployment.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Razor.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\WebGrease.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Antlr3.Runtime.pdb
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\EntityFramework.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\EntityFramework.SqlServer.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.Web.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.ApplicationInsights.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\Newtonsoft.Json.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\PagedList.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\PagedList.Mvc.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.Helpers.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.Mvc.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.Razor.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Deployment.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Razor.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\bin\System.Web.Optimization.xml
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\obj\Debug\Cocina.dll
+C:\Users\r.torres1\source\repos\s783\SISCO\Cocina\obj\Debug\Cocina.pdb
+C:\Users\r.torres1\Source\Repos\s783\SISCO\Cocina\obj\Debug\SISCO.csprojResolveAssemblyReference.cache
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\ApplicationInsights.config
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Cocina.dll.config
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Cocina.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Cocina.pdb
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\csc.exe
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\csc.exe.config
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\csc.rsp
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\csi.exe
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\csi.rsp
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\System.AppContext.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\vbc.exe
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\vbc.exe.config
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\vbc.rsp
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Antlr3.Runtime.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\EntityFramework.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\EntityFramework.SqlServer.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.Web.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.ApplicationInsights.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Newtonsoft.Json.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\PagedList.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\PagedList.Mvc.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.Helpers.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.Mvc.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.Optimization.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.Razor.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.WebPages.Deployment.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.WebPages.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.WebPages.Razor.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\WebGrease.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Antlr3.Runtime.pdb
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\EntityFramework.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\EntityFramework.SqlServer.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.Web.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.ApplicationInsights.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\Newtonsoft.Json.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\PagedList.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\PagedList.Mvc.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.Helpers.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.Mvc.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.Razor.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.WebPages.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.WebPages.Deployment.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.WebPages.Razor.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\bin\System.Web.Optimization.xml
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\obj\Debug\Cocina.dll
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\obj\Debug\Cocina.pdb
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\ApplicationInsights.config
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Cocina.dll.config
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Cocina.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Cocina.pdb
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\csc.exe
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\csc.exe.config
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\csc.rsp
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\csi.exe
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\csi.rsp
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\System.AppContext.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\vbc.exe
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\vbc.exe.config
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\vbc.rsp
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Antlr3.Runtime.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\EntityFramework.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\EntityFramework.SqlServer.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.Web.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.ApplicationInsights.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Newtonsoft.Json.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\PagedList.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\PagedList.Mvc.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.Helpers.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.Mvc.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.Optimization.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.Razor.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Deployment.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.WebPages.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Razor.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\WebGrease.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Antlr3.Runtime.pdb
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\EntityFramework.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\EntityFramework.SqlServer.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.Web.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.ApplicationInsights.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\Newtonsoft.Json.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\PagedList.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\PagedList.Mvc.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.Helpers.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.Mvc.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.Razor.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.WebPages.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Deployment.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.WebPages.Razor.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\bin\System.Web.Optimization.xml
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\obj\Debug\Cocina.dll
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\obj\Debug\Cocina.pdb
+C:\Users\m.camarillo\Source\Repos\s783\SISCO\Cocina\obj\Debug\SISCO.csprojResolveAssemblyReference.cache
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\obj\Debug\SISCO.csprojAssemblyReference.cache
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\obj\Debug\SISCO.csproj.CoreCompileInputs.cache
+C:\Users\f.soto\Documents\Visual Studio 2015\Projects\SISCO\Cocina\obj\Debug\SISCO.csproj.CopyComplete

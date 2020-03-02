@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <!-- TODO: INICIA META TAGS (REQUERIDOS) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ! TERMINA META TAGS (REQUERIDOS)-->
+    <title>SISCO | Coqueta - Sistema de Comedor</title>
+    @Styles.Render("~/Content/css")
+    <!-- TODO: INICIA FAVICONS -->
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icons/apple-touch-icon.png">
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+    <meta name="theme-color" content="#3063A0">
+    <!-- ! TERMINA FAVICONS -->
+    <!-- TODO: INICIA FUENTE DE LETRA GOOGLE -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
+    <!-- ! TERMINA FUENTE DE LETRA GOOGLE -->
+    <!-- TODO: INICIA PLUGINS DE ESTILO -->
+    <link rel="stylesheet" href="~/Content/assets/vendor/open-iconic/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/assets/vendor/fontawesome/css/all.css">
+    <link rel="stylesheet" href="~/Content/assets/vendor/flatpickr/flatpickr.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- Estilo de internet-->
+    <!-- ! TERMINA PLUGINS DE ESTILO -->
+    <!-- TODO: INICIA ESTILOS DE PAGINA -->
+    <link rel="stylesheet" href="~/Content/assets/stylesheets/theme.min.css" data-skin="default">
+    <!-- ! TERMINA ESTILOS DE PAGINA -->
+</head>
+
+<body>
+    <!-- * .app -->
+    <div class="app">
+        <!-- TODO: --------------------------------------------------- INICIA ENCABEZADO ------------------------------------------------------- -->
+        <!-- * .app-encabezado -->
+        <header class="app-header app-header-dark">
+            <!-- * .parte_superior-barra -->
+            <div class="top-bar">
+                <!-- * .parte_superior-barra-marca(izquierda) -->
+                <div class="top-bar-brand">
+                    <!-- TODO: INICIA ALTERNAR MENU -->
+                    <button class="hamburger hamburger-squeeze mr-2" type="button" data-toggle="aside-menu"
+                            aria-label="toggle aside menu">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    <!-- ! TERMINA ALTERNAR MENU -->
+                    <!-- TODO: INICIA LOGO -->
+                    <a href="index.html">
+                        <div class="brand-logo">
+                            <img src="~/Content/assets/images/img/LogoHorizontal.png" class="img-responsive" />
+                        </div>
+                    </a>
+                    <!-- ! TERMINA LOGO -->
+                </div>
+                <!-- /.parte_superior-barra-marca -->
+                <!-- * .parte_superior-lista(derecha) -->
+                <div class="top-bar-list">
+
+                    <!-- ---------------------------------------------- APARTADO MOVIL -------------------------------------------------------- -->
+                    <!-- * .parte_superior-fragmento(movil) -->
+                    <div class="top-bar-item px-2 d-md-none d-lg-none d-xl-none">
+                        <!-- TODO: INICIA ALTERNAR MENU -->
+                        <button class="hamburger hamburger-squeeze" type="button" data-toggle="aside"
+                                aria-label="toggle menu">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <!-- ! TERMINA ALTERNAR MENU -->
+                    </div>
+                    <!-- /.parte_superior-fragmento(movil) -->
+                    <!-- ---------------------------------------------- APARTADO MOVIL -------------------------------------------------------- -->
+                    <!-- * .parte_superior-fragmento(derecha) -->
+                    <div class="top-bar-item top-bar-item-right px-0 d-none d-sm-flex">
+                        <!-- * .navegacion (segmento) -->
+                        <ul class="header-nav nav">
+                            <!-- * .navegacion-fragmento-Mensajes -->
+                            <li class="nav-item dropdown header-nav-dropdown has-notified">
+                                <!-- TODO: INICIA MENSAJES -->
+                                <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false"><span class="oi oi-envelope-open"></span></a>
+                                <!-- TODO: DESPLEGAR MENSAJES -->
+                                <div class="dropdown-menu dropdown-menu-rich dropdown-menu-right">
+                                    <div class="dropdown-arrow"></div>
+                                    <h6 class="dropdown-header stop-propagation">
+                                        <span>Messages</span> <a href="#">Mark all as read</a>
+                                    </h6>
+                                    <!-- TODO: INICIA CONTENEDOR DE MENSAJES -->
+                                    <div class="dropdown-scroll perfect-scrollbar">
+                                        <!-- TODO: INICIA OBJETO MENSAJE -->
+                                        <a href="#" class="dropdown-item unread">
+                                            <div class="user-avatar">
+                                                <img src="~/Content/assets/images/avatars/team1.jpg" alt="">
+                                            </div>
+                                            <div class="dropdown-item-body">
+                                                <p class="subject"> Stilearning </p>
+                                                <p class="text text-truncate">
+                                                    Invitation: Joe's Dinner  Fri Aug 22
+                                                </p><span class="date">2 hours ago</span>
+                                            </div>
+                                        </a>
+                                        <!-- ! TERMINA ALTERNAR MENU -->
+                                        <!-- TODO: INICIA OBJETO MENSAJE -->
+                                        <a href="#" class="dropdown-item">
+                                            <div class="user-avatar">
+                                                <img src="~/Content/assets/images/avatars/team3.png" alt="">
+                                            </div>
+                                            <div class="dropdown-item-body">
+                                                <p class="subject"> Openlane </p>
+                                                <p class="text text-truncate"> Final reminder: Upgrade to Pro </p><span class="date">23 hours ago</span>
+                                            </div>
+                                        </a>
+                                        <!-- ! TERMINA ALTERNAR MENU -->
+                                        <!-- TODO: INICIA OBJETO MENSAJE -->
+                                        <a href="#" class="dropdown-item">
+                                            <div class="tile tile-circle bg-green"> GZ </div>
+                                            <div class="dropdown-item-body">
+                                                <p class="subject"> Gogo Zoom </p>
+                                                <p class="text text-truncate">
+                                                    Live healthy with this wireless sensor.
+                                                </p><span class="date">1 day ago</span>
+                                            </div>
+                                        </a>
+                                        <!-- ! TERMINA ALTERNAR MENU -->
+                                        <!-- TODO: INICIA OBJETO MENSAJE -->
+                                        <a href="#" class="dropdown-item">
+                                            <div class="tile tile-circle bg-teal"> GD </div>
+                                            <div class="dropdown-item-body">
+                                                <p class="subject"> Gold Dex </p>
+                                                <p class="text text-truncate">
+                                                    Invitation: Design Review  Mon Jul 7
+                                                </p><span class="date">1 day ago</span>
+                                            </div>
+                                        </a>
+                                        <!-- ! TERMINA ALTERNAR MENU -->
+                                        <!-- TODO: INICIA OBJETO MENSAJE -->
+                                        <a href="#" class="dropdown-item">
+                                            <div class="user-avatar">
+                                                <img src="~/Content/assets/images/avatars/team2.png" alt="">
+                                            </div>
+                                            <div class="dropdown-item-body">
+                                                <p class="subject"> Creative Division </p>
+                                                <p class="text text-truncate"> Need some feedback on this please </p>
+                                                <span class="date">2 days ago</span>
+                                            </div>
+                                        </a>
+                                        <!-- ! TERMINA ALTERNAR MENU -->
+                                        <!-- TODO: INICIA OBJETO MENSAJE -->
+                                        <a href="#" class="dropdown-item">
+                                            <div class="tile tile-circle bg-pink"> LD </div>
+                                            <div class="dropdown-item-body">
+                                                <p class="subject"> Lab Drill </p>
+                                                <p class="text text-truncate"> Our UX exercise is ready </p><span class="date">6 days ago</span>
+                                            </div>
+                                        </a>
+                                        <!-- ! TERMINA ALTERNAR MENU -->
+                                    </div>
+                                    <!-- ! TERMINA CONTENEDOR DE MENSAJES -->
+                                    <a href="page-messages.html" class="dropdown-footer">
+                                        All messages <i class="fas fa-fw fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                                <!-- ! TERMINA MENSAJES -->
+                            </li>
+                            <!-- /.navegacion-fragmento-Mensajes -->
+                            <!-- * .navegacion-fragmento-CerrarSesion -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="Views/Inicio-Sesion.html">
+                                    <span class="oi oi-account-logout"></span>
+                                    SALIR
+                                </a>
+                            </li>
+                            <!-- /.navegacion-fragmento-CerrarSesion -->
+                        </ul>
+                        <!-- /.navegacion (segmento) -->
+                        <!-- * .boton-cuenta -->
+                        <div class="d-flex">
+                            <button class="btn-account d-none d-md-flex" type="button">
+                                <span class="user-avatar user-avatar-md">
+                                    <img src="~/Content/assets/images/avatars/profile.jpg"
+                                         alt="">
+                                </span> <span class="account-summary pr-lg-4 d-none d-lg-block">
+                                    <span class="account-name">
+                                        Francisco
+                                        Soto
+                                    </span> <span class="account-description">f.soto-Administrador</span>
+                                </span>
+                            </button>
+                        </div>
+                        <!-- /.boton-cuenta -->
+                    </div>
+                    <!-- /.parte_superior-fragmento(derecha) -->
+                </div>
+                <!-- /.parte_superior-lista -->
+            </div>
+            <!-- /.parte_superior-barra -->
+        </header>
+        <!-- /.app-encabezado -->
+        <!-- ! ------------------------------------------------------ TERMINA ENCABEZADO ------------------------------------------------------- -->
+        <!-- TODO: ------------------------------------------------- INICIA BARRA LATERAL ------------------------------------------------------ -->
+        <!-- * .app-barraLateral -->
+        <aside class="app-aside app-aside-expand-md app-aside-light">
+            <!-- * .barraLateral-contenido -->
+            <div class="aside-content">
+
+                <!-- -------------------------------------------------- APARTADO MOVIL -------------------------------------------------------- -->
+                <!-- * .barraLateral-encabezado -->
+                <header class="aside-header d-block d-md-none">
+                    <!-- * .boton-cuenta(desplegable) -->
+                    <button class="btn-account" type="button" data-toggle="collapse" data-target="#dropdown-aside">
+                        <span class="user-avatar user-avatar-lg">
+                            <img src="~/Content/assets/images/avatars/profile.jpg"
+                                 alt="">
+                        </span> <span class="account-icon">
+                            <span class="fa fa-caret-down fa-lg"></span>
+                        </span> <span class="account-summary">
+                            <span class="account-name">Beni Arisandi</span> <span class="account-description">
+                                Marketing
+                                Manager
+                            </span>
+                        </span>
+                    </button>
+                    <!-- /.boton-cuenta -->
+                    <!-- * .desplegable-botonCuenta -->
+                    <div id="dropdown-aside" class="dropdown-aside collapse">
+                        <!-- TODO: OBJETO DESPELEGLABLE -->
+                        <div class="pb-3">
+                            <a class="dropdown-item" href="Views/Inicio-Sesion.html">
+                                <span class="dropdown-icon oi oi-account-logout"></span>
+                                SALIR
+                            </a>
+                        </div>
+                        <!-- ! TERMINA OBJETO DESPELEGLABLE -->
+                    </div>
+                    <!-- /.desplegable-botonCuenta -->
+                </header>
+                <!-- /.barraLateral-encabezado -->
+                <!-- -------------------------------------------------- APARTADO MOVIL -------------------------------------------------------- -->
+                <!-- * .barraLateral-menu -->
+                <div class="aside-menu overflow-hidden">
+                    <!-- * .menu-apilado -->
+                    <nav id="stacked-menu" class="stacked-menu">
+                        <!-- * .menu -->
+                        <ul class="menu">
+                            <!-- * .menu-fragmento-1 -->
+                            <li class="menu-item has-active">
+                                <a href="index.html" class="menu-link">
+                                    <span class="menu-icon fas fa-home"></span><span class="menu-text">Dashboard</span>
+                                </a>
+                            </li>
+
+                            <!-- EMPIEZA LOS MENUS LATERALES -->
+                            <!-- * .menu-encabezado -->
+                            <li class="menu-header">cocina </li>
+                            <!-- /.menu-encabezado -->
+                            <!-- /.menu-fragmento-1 -->
+                            <!-- /.menu-fragmento-2 -->
+                            <!-- * .menu-fragmento-3 -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="menu-icon oi oi-wrench"></span> <span class="menu-text">Actualizar<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Menú</span>
+                                </a>
+                            </li>
+                            <!-- /.menu-fragmento-3 -->
+                            <!-- * .menu-fragmento-4 -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="menu-icon oi oi-person"></span> <span class="menu-text">Platillos</span>
+                                </a>
+                            </li>
+                            <!-- /.menu-fragmento-4 -->
+                            <!-- * .menu-fragmento-5 -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <span class="menu-icon oi oi-browser"></span> <span class="menu-text">Asistencia</span>
+                                </a>
+                            </li>
+                            <!-- /.menu-fragmento-5 -->
+                            <!-- * .menu-fragmento-6 -->
+                            <li class="menu-item">
+                                <a href="landing-page.html" class="menu-link">
+                                    <span class="menu-icon fas fa-rocket"></span> <span class="menu-text">Comentarios </span>
+                                </a>
+                            </li>
+                            <!-- /.menu-fragmento-6 -->
+                            <!-- * .menu-fragmento-6 -->
+                            <li class="menu-item">
+                                <a href="landing-page.html" class="menu-link">
+                                    <span class="menu-icon fas fa-rocket"></span> <span class="menu-text">Selección Menú </span>
+                                </a>
+                            </li>
+                            <!-- /.menu-fragmento-6 -->
+                            <!-- * .menu-fragmento-7 -->
+                            <li class="menu-item">
+                                <a href="landing-page.html" class="menu-link">
+                                    <span class="menu-icon fas fa-rocket"></span> <span class="menu-text">
+                                        Reporte de menu
+                                        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;para nomina
+                                    </span>
+                                </a>
+                            </li>
+                            <!-- /.menu-fragmento-7 -->
+
+                        </ul>
+                        <!-- /.menu -->
+                    </nav>
+                    <!-- /.menu-apilado -->
+                </div>
+                <!-- /.barraLateral-menu -->
+            </div>
+            <!-- /.barraLateral-contenido -->
+        </aside>
+        <!-- /.app-barraLateral -->
+        <!-- ! --------------------------------------------------- TERMINA BARRA LATERAL ------------------------------------------------------ -->
+        <!-- TODO: ------------------------------------------------- INICIA CONTENIDO --------------------------------------------------------- -->
+        <!-- * .app-principal -->
+        <main class="app-main">
+            <!-- * .capa -->
+            <div class="wrapper">
+                <!-- * .pagina -->
+                <div class="page">
+                    <!-- * .pagina-interior -->
+                    <div class="page-inner">
+                        <div class="page-section">
+
+                            <!-- INICIO DE BLOQUE DE ALTA DE TRABAJADOR EXTERNO-->
+                            <a href="#" class="btn btn-success">Administración</a>
+                            <a href="#" class="btn btn-success">Tipo de Platillo</a>
+                            <h1 class="page-title">Complete los datos para dar de alta un platillo</h1>
+                            <div class="section-block">
+                                <form action="/action_page.php">
+                                    <table class="table-primary" width="100%" cellpadding="15px">
+                                        
+                                        <tr>
+                                            <th>
+                                                Tipo de Platillo  <input name="apellidoPaterno" type="select ls" style="width:100%; height: 30px">
+                                            </th>
+
+
+
+                                            <th style="text-align:end">
+                                                <button type="submit" class="btn-success btn-lg">Registrar</button>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
+                            <!-- FIN DE BLOQUE DE ALTA DE TRABAJADOR EXTERNO-->
+                            <!-- INICIO DE BLOQUE DE BAJA Y MODIFICACION DE TRABAJADOR EXTERNO-->
+                            <h1 class="page-title">Utiliza el buscador para encontrar un tipo de platillo </h1>
+                            
+
+
+                        </div>
+                        <!-- /.seccion-pagina -->
+                    </div>
+                    <!-- /.pagina-interior -->
+                </div>
+                <!-- /.pagina -->
+            </div>
+            <!-- /.capa -->
+        </main>
+        <!-- /.app-principal -->
+        <!-- ! --------------------------------------------------- TERMINA CONTENIDO ----------------------------------------------------------- -->
+
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <!-- /.app -->
+    <!-- TODO: INICIA BASES DE JS -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- ! TERMINA BASES DE JS -->
+    <!-- TODO: INICIA PLUGINS DE JS -->
+    <script src="assets/vendor/pace/pace.min.js"></script>
+    <script src="assets/vendor/stacked-menu/stacked-menu.min.js"></script>
+    <script src="assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/vendor/flatpickr/flatpickr.min.js"></script>
+    <script src="assets/vendor/easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="assets/vendor/chart.js/Chart.min.js"></script>
+    <!-- ! TERMINA PLUGINS DE JS -->
+    <!-- TODO: INICIA JS DEL SISTEMA -->
+    <script src="assets/javascript/theme.min.js"></script>
+    <!-- ! TERMINA JS DEL SISTEMA -->
+    <!-- TODO: INICIA JS DE LA PAGINA -->
+    <!-- // <script src="assets/javascript/pages/dashboard-demo.js"></script> -->
+    <!-- ! TERMINA JS DE LA PAGINA -->
+</body>
+
+</html>

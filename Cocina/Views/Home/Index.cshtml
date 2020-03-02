@@ -1,0 +1,351 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <!-- TODO: INICIA META TAGS (REQUERIDOS) -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- ! TERMINA META TAGS (REQUERIDOS)-->
+    <title>SISCO | Coqueta - Sistema de Comedor</title>
+    <!-- TODO: INICIA FAVICONS -->
+    <link rel="shortcut icon" href="~/Content/images/business/favicon.ico" />
+    <!-- ! TERMINA FAVICONS -->
+    <!-- TODO: INICIA FUENTE DE LETRA GOOGLE -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
+    <!-- ! TERMINA FUENTE DE LETRA GOOGLE -->
+    <!-- TODO: INICIA ESTILOS DE PLUGINS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/open-iconic/css/open-iconic-bootstrap.min.css">
+    <!-- ! TERMINA ESTILOS DE PLUGINS -->
+    <!-- TODO: INICIA ESTILOS DE LA PAGINA -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/stylesheets/custom.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/stylesheets/theme.min.css">
+    <!-- ! TERMINA ESTILOS DE LA PAGINA -->
+</head>
+
+<body>
+    <!-- * .app -->
+    <div class="app">
+        <!-- TODO: --------------------------------------------------- INICIA ENCABEZADO ------------------------------------------------------- -->
+        <!-- * .app-encabezado -->
+        <header class="app-header app-header-dark">
+            <!-- * .parte_superior-barra -->
+            <div class="top-bar">
+                <!-- * .parte_superior-barra-marca(izquierda) -->
+                <div class="top-bar-brand">
+                    <!-- TODO: INICIA ALTERNAR MENU -->
+                    <button class="hamburger hamburger-squeeze mr-2" type="button" data-toggle="aside-menu"
+                            aria-label="toggle aside menu">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    <!-- ! TERMINA ALTERNAR MENU -->
+                    <!-- TODO: INICIA LOGO -->
+                    <a href="~/Views/Home/Index.cshtml">
+                        <div class="brand-logo">
+                            <img class="img-responsive loading-spin" src="~/Content/images/business/Insignia.png"
+                                 style="position: absolute; left: 135px; top: 7px; width: 40px; transform: rotate(25deg)" alt="logo" />
+                            <img class="img-responsive" src="~/Content/images/business/LogoHorizontal.png" style="width: 100%;" />
+                        </div>
+                    </a>
+                    <!-- ! TERMINA LOGO -->
+                </div>
+                <!-- /.parte_superior-barra-marca -->
+                <!-- * .parte_superior-lista(derecha) -->
+                <div class="top-bar-list">
+
+                    <!-- ---------------------------------------------- APARTADO MOVIL -------------------------------------------------------- -->
+                    <!-- * .parte_superior-fragmento(movil) -->
+                    <div class="top-bar-item px-2 d-md-none d-lg-none d-xl-none">
+                        <!-- TODO: INICIA ALTERNAR MENU -->
+                        <button class="hamburger hamburger-squeeze" type="button" data-toggle="aside" aria-label="toggle menu">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <!-- ! TERMINA ALTERNAR MENU -->
+                    </div>
+                    <!-- /.parte_superior-fragmento(movil) -->
+                    <!-- ---------------------------------------------- APARTADO MOVIL -------------------------------------------------------- -->
+                    <!-- * .parte_superior-fragmento(derecha) -->
+                    <div class="top-bar-item top-bar-item-right px-0 d-none d-sm-flex">
+                        <!-- * .navegacion (segmento) -->
+                        <ul class="header-nav nav">
+                            <!-- * .navegacion-fragmento-CerrarSesion -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="~/Views/Cuenta/Login.cshtml">
+                                    <span class="oi oi-account-logout"></span>
+                                    SALIR
+                                </a>
+                            </li>
+                            <!-- /.navegacion-fragmento-CerrarSesion -->
+                        </ul>
+                        <!-- /.navegacion (segmento) -->
+                        <!-- * .boton-cuenta -->
+                        <div class="d-flex">
+                            <button class="btn-account d-none d-md-flex" type="button">
+                                <span class="user-avatar user-avatar-md">
+                                    <img src="~/Content/images/avatars/profile_v2.png" alt="">
+                                </span> <span class="account-summary pr-lg-4 d-none d-lg-block">
+                                    <span class="account-name">
+                                        Francisco
+                                        Soto
+                                    </span> <span class="account-description">f.soto-Administrador</span>
+                                </span>
+                            </button>
+                        </div>
+                        <!-- /.boton-cuenta -->
+                    </div>
+                    <!-- /.parte_superior-fragmento(derecha) -->
+                </div>
+                <!-- /.parte_superior-lista -->
+            </div>
+            <!-- /.parte_superior-barra -->
+        </header>
+        <!-- /.app-encabezado -->
+        <!-- ! ------------------------------------------------------ TERMINA ENCABEZADO ------------------------------------------------------- -->
+        <!-- TODO: ------------------------------------------------- INICIA BARRA LATERAL ------------------------------------------------------ -->
+        <!-- * .app-barraLateral -->
+        <aside class="app-aside app-aside-expand-md app-aside-light">
+            <!-- * .barraLateral-contenido -->
+            <div class="aside-content">
+
+                <!-- -------------------------------------------------- APARTADO MOVIL -------------------------------------------------------- -->
+                <!-- * .barraLateral-encabezado -->
+                <header class="aside-header d-block d-md-none">
+                    <!-- * .boton-cuenta(desplegable) -->
+                    <button class="btn-account" type="button" data-toggle="collapse" data-target="#dropdown-aside">
+                        <span class="user-avatar user-avatar-lg">
+                            <img src="~/Content/images/avatars/profile_v2.png" alt="">
+                        </span> <span class="account-icon">
+                            <span class="fa fa-caret-down fa-lg"></span>
+                        </span> <span class="account-summary">
+                            <span class="account-name">Francisco Soto</span> <span class="account-description">
+                                f.soto-
+                                Administrador
+                            </span>
+                        </span>
+                    </button>
+                    <!-- /.boton-cuenta -->
+                    <!-- * .desplegable-botonCuenta -->
+                    <div id="dropdown-aside" class="dropdown-aside collapse">
+                        <!-- TODO: OBJETO DESPELEGLABLE -->
+                        <div class="pb-3">
+                            <a class="dropdown-item" href="~/Views/Cuenta/Login.cshtml">
+                                <span class="dropdown-icon oi oi-account-logout"></span>
+                                SALIR
+                            </a>
+                        </div>
+                        <!-- ! TERMINA OBJETO DESPELEGLABLE -->
+                    </div>
+                    <!-- /.desplegable-botonCuenta -->
+                </header>
+                <!-- /.barraLateral-encabezado -->
+                <!-- -------------------------------------------------- APARTADO MOVIL -------------------------------------------------------- -->
+                <!-- * .barraLateral-menu -->
+                <div class="aside-menu overflow-hidden">
+                    <!-- * .menu-apilado -->
+                    <nav id="stacked-menu" class="stacked-menu">
+                        <!-- * .menu -->
+                        <ul class="menu">
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="~/Views/Usuario/Usuario.cshtml" class="menu-link">
+                                    <i class="menu-icon fas fa-user-plus"></i> <span class="menu-text">Registrar usuarios</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <i class="menu-icon fas fa-chalkboard-teacher"></i> <span class="menu-text">Registrar menu para usuario</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <i class="menu-icon fas fa-table"></i> <span class="menu-text">
+                                        Pedido de
+                                        platillos de barra
+                                    </span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <i class="menu-icon fas fa-comments"></i> <span class="menu-text">Comentarios</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <i class="menu-icon fas fa-ticket-alt"></i> <span class="menu-text">Tickets</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <i class="menu-icon fas fa-calendar-check"></i> <span class="menu-text">Publicacion de menu</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <i class="menu-icon fas fa-clipboard-list"></i> <span class="menu-text">Reporte de menu para nomina</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-encabezado -->
+                            <li class="menu-header">Empleados </li>
+                            <!-- /.menu-encabezado -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="../uOffice/CalendarioMenu.html" class="menu-link">
+                                    <i class="menu-icon fas fa-calendar-alt"></i>
+                                    <span class="menu-text">Calendario de Menus</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="../uOffice/SeleccionMenu.html" class="menu-link">
+                                    <i class="menu-icon fas fa-utensils"></i>
+                                    <span class="menu-text">Seleccion de Menu</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="../uOffice/Historial.html" class="menu-link">
+                                    <i class="menu-icon fas fa-history"></i>
+                                    <span class="menu-text">Historial de Registros</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="../uOffice/Comentarios.html" class="menu-link">
+                                    <i class="menu-icon fas fa-comment-dots"></i>
+                                    <span class="menu-text">Comentarios</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- .menu-header -->
+                            <li class="menu-header">Comedor </li><!-- /.menu-header -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="../uKitchen/CatalogoPlatillo.html" class="menu-link">
+                                    <i class="menu-icon fas fa-drumstick-bite"></i> <span class="menu-text">Platillos</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item has-child">
+                                <a href="#" class="menu-link">
+                                    <i class="menu-icon fas fa-list-alt"></i> <span class="menu-text">Menu</span>
+                                </a> <!-- child menu -->
+                                <ul class="menu">
+                                    <li class="menu-item">
+                                        <a href="../uKitchen/CatalogoMenu.html" class="menu-link">Menu</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="../uKitchen/CatalogoTMenu.html" class="menu-link">Tipo de Menu</a>
+                                    </li>
+                                </ul><!-- /child menu -->
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <i class="menu-icon fas fa-user-check"></i> <span class="menu-text">Asistencia</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="../uKitchen/Comentarios.html" class="menu-link">
+                                    <i class="menu-icon fas fa-comments"></i> <span class="menu-text">Comentarios</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                            <!-- * .menu-objeto -->
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">
+                                    <i class="menu-icon fas fa-utensils"></i> <span class="menu-text">Seleccion de menu</span>
+                                </a>
+                            </li>
+                            <!-- / .menu-objeto -->
+                        </ul>
+                        <!-- / .menu -->
+                    </nav>
+                    <!-- / .menu-apilado -->
+                </div>
+                <!-- /.barraLateral-menu -->
+            </div>
+            <!-- /.barraLateral-contenido -->
+        </aside>
+        <!-- /.app-barraLateral -->
+        <!-- ! --------------------------------------------------- TERMINA BARRA LATERAL ------------------------------------------------------ -->
+        <!-- TODO: ------------------------------------------------- INICIA CONTENIDO --------------------------------------------------------- -->
+        <!-- * .app-principal -->
+        <main class="app-main">
+            <!-- * .capa -->
+            <div class="wrapper">
+                <!-- * .pagina -->
+                <div class="page">
+                    <!-- * .pagina-interior -->
+                    <div class="page-inner">
+                        <!-- * .pagina-titulo-encabezado -->
+                        <header class="page-title-bar">
+                            <!-- TODO: INICIO DE ENCABEZADO DE PAGINA INTERIOR -->
+                            <h1 class="page-title"></h1>
+                            <!-- ! TERMINA ENCABEZADO DE PAGINA INTERIOR -->
+                        </header>
+                        <!-- /.pagina-titulo-encabezado -->
+                        <!-- * .seccion-pagina -->
+                        <div class="page-section">
+                            <!-- * .bloque-seccion -->
+                            <div class="section-block">
+                                <!-- TODO: INICIO DEL CONTENIDO DE LA PAGINA -->
+                                <!-- ! TERMINA ENCABEZADO DE PAGINA INTERIOR -->
+                            </div>
+                            <!-- /.bloque-seccion -->
+                        </div>
+                        <!-- /.seccion-pagina -->
+                    </div>
+                    <!-- /.pagina-interior -->
+                </div>
+                <!-- /.pagina -->
+            </div>
+            <!-- /.capa -->
+        </main>
+        <!-- /.app-principal -->
+        <!-- ! --------------------------------------------------- TERMINA CONTENIDO ----------------------------------------------------------- -->
+    </div>
+    <!-- /.app -->
+    <!-- TODO: INICIA BASES DE JS -->
+    <script type="text/javascript" src="~/Content/js/jquery/jquery.core/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="~/Content/js/bootstrap/bootstrap.js"></script>
+    <script type="text/javascript" src="~/Content/js/bootstrap/popper.min.js"></script>
+    <!-- ! TERMINA BASES DE JS -->
+    <!-- TODO: INICIA PLUGINS DE JS -->
+    <script type="text/javascript" src="~/Content/js/pace/pace.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/stacked-menu/stacked-menu.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <!-- ! TERMINA PLUGINS DE JS -->
+    <!-- TODO: INICIA FUNCIONES DE ESTILO JS-->
+    <script type="text/javascript" src="~/Content/js/theme.min.js"></script>
+    <!-- ! INICIA FUNCIONES DE ESTILO JS-->
+</body>
+
+</html>

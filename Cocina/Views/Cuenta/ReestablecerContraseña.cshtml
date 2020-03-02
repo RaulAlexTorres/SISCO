@@ -1,0 +1,121 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <!-- TODO: INICIA META TAGS (REQUERIDOS) -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- ! TERMINA META TAGS (REQUERIDOS)-->
+    <title>SISCO | Coqueta - Sistema de Comedor</title>
+    <!-- TODO: INICIA FAVICONS -->
+    <link rel="shortcut icon" href="~/Content/images/business/favicon.ico" />
+    <!-- ! TERMINA FAVICONS -->
+    <!-- TODO: INICIA ESTILOS DE PLUGINS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/fontawesome/css/all.css" />
+    <!-- ! TERMINA ESTILOS DE PLUGINS -->
+    <!-- TODO: INICIA ESTILOS DE LA PAGINA -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/stylesheets/custom.css" />
+    <!-- ! TERMINA ESTILOS DE LA PAGINA -->
+</head>
+
+<body>
+    <!-- TODO: ------------------------------ INICIA FONDO DE PARTICULAS ------------------------------ -->
+    <div id="notfound-state" class="fondo-particulas"></div>
+    <!-- ! ---------------------------------- TERMINA FONDO DE PARTICULAS ----------------------------- -->
+    <!-- TODO: ----------------------------------- INICIA CONTENIDO ----------------------------------- -->
+    <!-- * .contenedor -->
+    <div class="contenedor">
+        <!-- * .tarjeta -->
+        <div class="tarjeta" id="card">
+            <!-- * .tarjeta-cara -->
+            <div class="front">
+                <!-- * .tarjeta-cara-contenedor-recuperar -->
+                <div class="contenedor-formulario iniciar-sesion">
+                    <!-- TODO: INICIA FORMULARIO PARA REESTABLECER CONTRASEÑA -->
+                    <form id="form-reestablecer">
+                        <h1>Reestablecer Contraseña</h1>
+                        <span>para cambiar su contraseña</span>
+                        <div class="form-label-group">
+                            <input type="text" id="inputCodigo" name="inputCodigo" class="form-control"
+                                   placeholder="Codigo de Seguridad">
+                            <label for="inputCodigo">Codigo de seguridad</label>
+                        </div>
+                        <div class="form-label-group">
+                            <input type="password" id="inputContraseña" name="inputContraseña" class="form-control"
+                                   placeholder="Contraseña">
+                            <label for="inputContraseña">Contraseña</label>
+                        </div>
+                        <div class="form-label-group mb-4">
+                            <input type="password" id="inputConfirmar" name="inputConfirmar" class="form-control"
+                                   placeholder="Confirmar Contraseña">
+                            <label for="inputConfirmar">Confrimar Contraseña</label>
+                        </div>
+                        <button class="btn-block">
+                            <i class="fas fa-external-link-alt"></i>
+                            Continuar
+                        </button>
+                    </form>
+                    <!-- ! TERMINA FORMULARIO PARA REESTABLECER CONTRASEÑA -->
+                </div>
+                <!-- / .tarjeta-cara-contenedor-recuperar -->
+                <!-- * .tarjeta-cara-cobertura -->
+                <div class="superponer-contenedor">
+                    <div class="superponer-tarjeta">
+                        <!-- * .tarjeta-cara-cobertura-derecha -->
+                        <div class="superponer-panel panel-derecho">
+                            <h3>Quieres cambiar tu contraseña?</h3>
+                            <p>Ingrese el codigo de seguridad y su nueva contraseña para continuar.</p>
+                            <button class="ghost">
+                                <i class="fas fa-backspace"></i> Regresar a
+                                la pagina principal
+                            </button>
+                        </div>
+                        <!-- / .tarjeta-cara-cobertura-derecha -->
+                    </div>
+                </div>
+                <!-- / .tarjeta-cara-cobertura -->
+            </div>
+            <!-- / .tarjeta-cara -->
+            <!-- * .tarjeta-reverso -->
+            <div class="back">
+                <div class="contenedor-mensaje">
+                    <div class="mensaje-tarjeta">
+                        <div class="mensaje-exito">
+                            <img src="~/Content/images/business/Logo-Horizontal.png">
+                            <h1>Exito!</h1>
+                            <p>Tu contraseña ha sido restaurada con exito</p>
+                            <button class="ghost">
+                                <i class="fas fa-backspace"></i> Regresar a
+                                la pagina principal
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- / .tarjeta-reverso -->
+        </div>
+        <!-- / .tarjeta -->
+    </div>
+    <!-- / .contenedor -->
+    <!-- ! -------------------------------------- TERMINA CONTENIDO ----------------------------------- -->
+    <!-- TODO: INICIA BASES DE JS -->
+    <script type="text/javascript" src="~/Content/js/jquery/jquery.core/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="~/Content/js/bootstrap/bootstrap.js"></script>
+    <script type="text/javascript" src="~/Content/js/bootstrap/popper.min.js"></script>
+    <!-- ! TERMINA BASES DE JS -->
+    <!-- TODO: INICIA PLUGINS DE JS -->
+    <script type="text/javascript" src="~/Content/js/particles.js/particles.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery/jquery.flip/jquery.flip.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery/jquery.validation/jquery.validate.js"></script>
+    <!-- ! TERMINA PLUGINS DE JS -->
+    <!-- TODO: INICIA FUNCIONES DE ESTILO JS-->
+    <script type="text/javascript" src="~/Content/js/site/login/login_funciones.js"></script>
+    <!-- ! INICIA FUNCIONES DE ESTILO JS-->
+</body>
+
+</html>

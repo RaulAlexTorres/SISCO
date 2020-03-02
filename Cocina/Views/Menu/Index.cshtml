@@ -1,0 +1,451 @@
+﻿@model Cocina.Models.rMenus
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section menu
+{
+    <ul class="menu">
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="../uAdminstration/CatalogoUsuario.html" class="menu-link">
+                <i class="menu-icon fas fa-user-plus"></i> <span class="menu-text">
+                    Registrar
+                    usuarios
+                </span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-chalkboard-teacher"></i> <span class="menu-text">Registrar menu para usuario</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-table"></i> <span class="menu-text">
+                    Pedido de
+                    platillos de barra
+                </span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-comments"></i> <span class="menu-text">Comentarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-ticket-alt"></i> <span class="menu-text">Tickets</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-calendar-check"></i> <span class="menu-text">Publicacion de menu</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-clipboard-list"></i> <span class="menu-text">Reporte de menu para nomina</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-encabezado -->
+        <li class="menu-header">Empleados </li>
+        <!-- /.menu-encabezado -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="../uOffice/CalendarioMenu.html" class="menu-link">
+                <i class="menu-icon fas fa-calendar-alt"></i> <span class="menu-text">
+                    Calendario de
+                    Menus
+                </span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="../uOffice/SeleccionMenu.html" class="menu-link">
+                <i class="menu-icon fas fa-utensils"></i> <span class="menu-text">
+                    Seleccion de
+                    Menu
+                </span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="../uOffice/Historial.html" class="menu-link">
+                <i class="menu-icon fas fa-history"></i>
+                <span class="menu-text">Historial de Registros</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="../uOffice/Comentarios.html" class="menu-link">
+                <i class="menu-icon fas fa-comment-dots"></i>
+                <span class="menu-text">Comentarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- .menu-header -->
+        <li class="menu-header">Comedor </li><!-- /.menu-header -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="../uKitchen/CatalogoPlatillo.html" class="menu-link">
+                <i class="menu-icon fas fa-drumstick-bite"></i> <span class="menu-text">Platillos</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item has-active has-child">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-list-alt"></i> <span class="menu-text">Menu</span>
+            </a> <!-- child menu -->
+            <ul class="menu">
+                <li class="menu-item has-active">
+                    <a href="../uKitchen/CatalogoMenu.html" class="menu-link">Menu</a>
+                </li>
+                <li class="menu-item">
+                    <a href="../uKitchen/CatalogoTMenu.html" class="menu-link">Tipo de Menu</a>
+                </li>
+            </ul><!-- /child menu -->
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-user-check"></i> <span class="menu-text">Asistencia</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="../uKitchen/Comentarios.html" class="menu-link">
+                <i class="menu-icon fas fa-comments"></i> <span class="menu-text">Comentarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-utensils"></i> <span class="menu-text">Seleccion de menu</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+    </ul>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="accordion2" class="card-expansion">
+            <div class="card card-expansion-item expanded">
+                <div class="card-header border-0" id="headingOne2">
+                    <button class="btn btn-reset d-flex justify-content-between w-100"
+                            data-toggle="collapse" data-target="#registroMenu"
+                            aria-expanded="true" aria-controls="registroMenu">
+                        <span>Registro de menu</span>
+                        <span class="collapse-indicator"><i class="fa fa-fw fa-chevron-down"></i></span>
+                    </button>
+                </div>
+                <div id="registroMenu" class="collapse show"
+                     aria-labelledby="headingOne2" data-parent="#accordion2">
+                    <div class="card-body pt-0">
+                        <form id="form-menu">
+                            <div class="form-layout form-layout-2">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4 mg-t--1 mg-md-t-0">
+                                        <div class="form-group mg-md-l--1">
+                                            <label class="form-control-label">
+                                                Fecha:
+                                                <span class="badge badge-danger"><em>Requerido</em></span>
+                                            </label>
+                                            <input class="form-control-br" type="text"
+                                                   id="inputFecha" name="inputFecha"
+                                                   data-toggle="flatpickr" placeholder="Elige una fecha">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mg-t--1 mg-md-t-0">
+                                        <div class="form-group mg-md-l--1">
+                                            <label class="form-control-label">
+                                                Fruta:
+                                                <span class="badge badge-danger"><em>Requerido</em></span>
+                                            </label>
+                                            <select id="selectFruta" name="selectFruta"
+                                                    class="form-control-br"
+                                                    data-placeholder="Elige un tipo">
+                                                <option label="Elige un tipo de usuario" selected></option>
+                                                <option value="01">Naranja</option>
+                                                <option value="02">Manzana</option>
+                                                <option value="03">Jicama</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mg-t--1 mg-md-t-0">
+                                        <div class="form-group mg-md-l--1">
+                                            <label class="form-control-label">
+                                                Postre:
+                                                <span class="badge badge-secondary"><em>Opcional</em></span>
+                                            </label>
+                                            <select id="selectPostre" name="selectPostre"
+                                                    class="form-control-br"
+                                                    data-placeholder="Elige un tipo">
+                                                <option label="Elige un tipo de usuario" selected></option>
+                                                <option value="01">Flan napolitano</option>
+                                                <option value="02">Helado</option>
+                                                <option value="03">Pastel</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-md-4 mg-t--1">
+                                        <div class="form-group mg-md-l--1">
+                                            <label class="form-control-label">
+                                                Menu de barra:
+                                                <span class="badge badge-danger"><em>Requerido</em></span>
+                                            </label>
+                                            <select id="selectMBarra" name="selectMBarra"
+                                                    class="form-control-br"
+                                                    data-placeholder="Elige un tipo">
+                                                <option label="Elige un platillo" selected></option>
+                                                <option value="01">Mole poblano</option>
+                                                <option value="02">Pechuga asada</option>
+                                                <option value="03">Discada</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mg-t--1">
+                                        <div class="form-group mg-md-l--1">
+                                            <label class="form-control-label">
+                                                Menu de oficina:
+                                                <span class="badge badge-danger"><em>Requerido</em></span>
+                                            </label>
+                                            <select id="selectMOficina" name="selectMOficina"
+                                                    class="form-control-br"
+                                                    data-placeholder="Elige un tipo">
+                                                <option label="Elige un platillo" selected></option>
+                                                <option value="01">Mole poblano</option>
+                                                <option value="02">Pechuga asada</option>
+                                                <option value="03">Discada</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mg-t--1">
+                                        <div class="form-group mg-md-l--1">
+                                            <label class="form-control-label">
+                                                Menu especial:
+                                                <span class="badge badge-danger"><em>Requerido</em></span>
+                                            </label>
+                                            <select id="selectMEspecial" name="selectMEspecial"
+                                                    class="form-control-br"
+                                                    data-placeholder="Elige un tipo">
+                                                <option label="Elige un platillo" selected></option>
+                                                <option value="USA">Mole poblano</option>
+                                                <option value="UK">Pechuga asada</option>
+                                                <option value="China">Discada</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-layout-footer mg-md-l--1 bd pd-20 bd-t-0">
+                                    <button id="btnGuardar" class="btn btn-raised btn-wave bg-green">
+                                        <i class="fas fa-plus"></i>&nbsp; Guardar
+                                    </button>
+                                    <button id="btnActualizar" class="btn btn-raised btn-wave blue-grey">Actualizar</button>
+                                    <button id="btnCancelar" class="btn btn-raised bg-gray">Cancelar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- /.card -->
+        </div><!-- /#accordion2 -->
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <!-- .card-header -->
+            <div class="card-header">
+                <h5>Tabla de Menus</h5>
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab"
+                           href="#men-activos">Menus Activos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link show" data-toggle="tab"
+                           href="#men-inactivos">Menus Inactivos</a>
+                    </li>
+                </ul>
+            </div><!-- /.card-header -->
+            <!-- .card-body -->
+            <div class="card-body">
+                <!-- .tab-content -->
+                <div id="myTabCard" class="tab-content">
+                    <div class="toolbar">
+                        <form class="flex">
+                            <div class="input-group has-clearable mb-3">
+                                <button id="clear-search" type="button" class="close" aria-label="Close">
+                                    <span aria-hidden="true"><i class="fa fa-times-circle"></i></span>
+                                </button>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <span class="oi oi-magnifying-glass"></span>
+                                    </span>
+                                </div>
+                                <input id="buscador" type="text" class="form-control" placeholder="Buscar">
+                            </div><!-- /.input-group -->
+                        </form>
+                    </div>
+                    <div class="tab-pane fade active show" id="men-activos">
+                        <div class="table-responsive">
+                            <table style="width: 100%;" id="menu-activos">
+                                <thead>
+                                    <tr>
+                                        <th><span class="text-muted">Fecha</span></th>
+                                        <th><span class="text-muted">Menu</span></th>
+                                        <th><span class="text-muted">Plato</span></th>
+                                        <th><span class="text-muted">Fruta</span></th>
+                                        <th><span class="text-muted">Postre</span></th>
+                                        <th><span class="text-muted">Acciones</span></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="men-inactivos">
+                        <div class="table-responsive">
+                            <table style="width: 100%;" id="menu-inactivos">
+                                <thead>
+                                    <tr>
+                                        <th><span class="text-muted">Fecha</span></th>
+                                        <th><span class="text-muted">Menu</span></th>
+                                        <th><span class="text-muted">Plato</span></th>
+                                        <th><span class="text-muted">Fruta</span></th>
+                                        <th><span class="text-muted">Postre</span></th>
+                                        <th><span class="text-muted">Acciones</span></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div><!-- /.tab-content -->
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+    <!-- /.col -->
+</div>
+<!-- /.row -->
+
+<div class="modal modal-drawer fade" id="configTPlatillos" tabindex="-1" role="dialog"
+     aria-labelledby="modalBoardConfigTitle" aria-hidden="true">
+    <!-- .modal-dialog -->
+    <div class="modal-dialog modal-drawer-right" role="document">
+        <!-- .modal-content -->
+        <div id="modalContentLayer1" class="modal-content">
+            <!-- .modal-header -->
+            <div class="modal-header">
+                <h5 id="modalBoardConfigTitle" class="modal-title"> Tipo de platillo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div><!-- /.modal-header -->
+            <!-- .modal-body -->
+            <div class="modal-body">
+                <form id="form-tipoMenu">
+                    <div class="form-layout form-layout-2">
+                        <div class="row no-gutters">
+                            <div class="col-md-12 mg-t--1 mg-md-t-0">
+                                <div class="form-group mg-md-l--1">
+                                    <label class="form-control-label">
+                                        Tipo de
+                                        menu: <span class="badge badge-danger"><em>Requerido</em></span>
+                                    </label>
+                                    <input class="form-control-br" type="text"
+                                           id="inputTMenu" name="inputTMenu"
+                                           placeholder="Ingresa el nombre del tipo de menu">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-layout-footer mg-md-l--1 bd pd-20 bd-t-0">
+                            <button id="btnGuardar" class="btn btn-raised btn-wave bg-green">
+                                <i class="fas fa-plus"></i>&nbsp;Guardar
+                            </button>
+                            <button id="btnActualizar" class="btn btn-raised btn-wave blue-grey">Actualizar</button>
+                            <button id="btnCancelar" class="btn btn-raised bg-gray">Cancelar</button>
+                        </div>
+                    </div>
+                </form>
+
+                <hr>
+
+                <h6><i class="fas fa-table text-muted mr-2"></i>Tabla de tipos</h6>
+                <div class="nav-scroller border-bottom mb-2">
+                    <!-- .nav-tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active show" data-toggle="tab"
+                               href="#tmen-activos">Tipos Activos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab"
+                               href="#tmen-inactivos">Tipos Inactivos</a>
+                        </li>
+                    </ul><!-- /.nav-tabs -->
+                </div>
+                <div class="tab-content" id="tiposPlatillosTabs">
+                    <!-- .tab-pane -->
+                    <div class="tab-pane fade active show" id="tmen-activos"
+                         role="tabpanel" aria-labelledby="tmen-activos-tab">
+                        <div class="table-responsive">
+                            <table style="width: 100%;" id="tmenu-activos">
+                                <thead>
+                                    <tr>
+                                        <th><span class="text-muted">Tipo de Menu</span></th>
+                                        <th><span class="text-muted">Acciones</span></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div><!-- /.tab-pane -->
+                    <!-- .tab-pane -->
+                    <div class="tab-pane fade" id="tplat-inactivos" role="tabpanel"
+                         aria-labelledby="tplat-inactivos-tab">
+                        <table style="width: 100%;" id="tplatillos-inactivos">
+                            <thead>
+                                <tr>
+                                    <th><span class="text-muted">Tipo de Menu</span></th>
+                                    <th><span class="text-muted">Acciones</span></th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div><!-- /.tab-pane -->
+                </div>
+            </div>
+        </div><!-- /.modal-body -->
+    </div><!-- .modal-content -->
+</div>
+
+@section js_modelo
+{
+    <script type="text/javascript" src="~/Content/js/site/menus/menu_funciones.js"></script>
+}

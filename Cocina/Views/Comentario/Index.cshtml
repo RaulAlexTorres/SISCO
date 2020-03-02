@@ -1,0 +1,200 @@
+﻿@model Cocina.Models.rComentarios
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section menu
+{
+    <ul class="menu">
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-user-plus"></i> <span class="menu-text">Registrar usuarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-chalkboard-teacher"></i> <span class="menu-text">Registrar menu para usuario</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-table"></i> <span class="menu-text">
+                    Pedido de
+                    platillos de barra
+                </span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item has-active">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-comments"></i> <span class="menu-text">Comentarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-ticket-alt"></i> <span class="menu-text">Tickets</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-calendar-check"></i> <span class="menu-text">Publicacion de menu</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-clipboard-list"></i> <span class="menu-text">Reporte de menu para nomina</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-encabezado -->
+        <li class="menu-header">Empleados </li>
+        <!-- /.menu-encabezado -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-calendar-alt"></i>
+                <span class="menu-text">Calendario de Menus</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-utensils"></i>
+                <span class="menu-text">Seleccion de Menu</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-history"></i>
+                <span class="menu-text">Historial de Registros</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-comment-dots"></i>
+                <span class="menu-text">Comentarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- .menu-header -->
+        <li class="menu-header">Comedor </li><!-- /.menu-header -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-drumstick-bite"></i> <span class="menu-text">Platillos</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item has-child">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-list-alt"></i> <span class="menu-text">Menu</span>
+            </a> <!-- child menu -->
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Menu</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Tipo de Menu</a>
+                </li>
+            </ul><!-- /child menu -->
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-user-check"></i> <span class="menu-text">Asistencia</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-comments"></i> <span class="menu-text">Comentarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-utensils"></i> <span class="menu-text">Seleccion de menu</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+    </ul>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <!-- .card-header -->
+            <div class="card-header">
+                <h5 class="card-title">Comentarios</h5>
+            </div><!-- /.card-header -->
+            <!-- .card-body -->
+            <div class="card-body">
+                <div class="form-group">
+                    <!-- .input-group -->
+                    <div class="input-group input-group-alt">
+                        <div class="input-group-prepend">
+                            <select id="filtroPorAño" name="filter" class="custom-select">
+                                <option value="" selected=""> Año </option>
+                                <option value="2020"> 2020 </option>
+                                <option value="2021"> 2021 </option>
+                            </select>
+                        </div>
+                        <!-- .input-group -->
+                        <div class="input-group has-clearable">
+                            <button id="clear-search" type="button" class="close" aria-label="Close">
+                                <span aria-hi dden="true"><i class="fa fa-times-circle"></i></span>
+                            </button>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="oi oi-magnifying-glass"></span>
+                                </span>
+                            </div>
+                            <input id="buscador" type="text" class="form-control" placeholder="Buscar comentarios">
+                        </div><!-- /.input-group -->
+                    </div><!-- /.input-group -->
+                </div>
+                <div class="table-responsive">
+                    <table style="width: 100%;" id="comentarios">
+                        <thead>
+                            <tr>
+                                <th><span class="text-muted">Fecha</span></th>
+                                <th><span class="text-muted">Menu</span></th>
+                                <th><span class="text-muted">Platillo</span></th>
+                                <th><span class="text-muted">Comentario</span></th>
+                                <th><span class="text-muted">Persona</span></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div><!-- /.card-body -->
+        </div>
+    </div>
+</div>
+
+@section js_modelo
+{
+    <script type="text/javascript" src="~/Content/js/site/administracion/comentario_funciones.js"></script>
+}   

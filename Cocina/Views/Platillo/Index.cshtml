@@ -1,0 +1,317 @@
+﻿@model Cocina.Models.cPlatillos
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section menu
+{
+    <ul class="menu">
+        <!-- * .menu-objeto -->
+        <li class="menu-item has-active">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-user-plus"></i> <span class="menu-text">Registrar usuarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-chalkboard-teacher"></i> <span class="menu-text">Registrar menu para usuario</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-table"></i> <span class="menu-text">
+                    Pedido de
+                    platillos de barra
+                </span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-comments"></i> <span class="menu-text">Comentarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-ticket-alt"></i> <span class="menu-text">Tickets</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-calendar-check"></i> <span class="menu-text">Publicacion de menu</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-clipboard-list"></i> <span class="menu-text">Reporte de menu para nomina</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-encabezado -->
+        <li class="menu-header">Empleados </li>
+        <!-- /.menu-encabezado -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-calendar-alt"></i>
+                <span class="menu-text">Calendario de Menus</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-utensils"></i>
+                <span class="menu-text">Seleccion de Menu</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-history"></i>
+                <span class="menu-text">Historial de Registros</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-comment-dots"></i>
+                <span class="menu-text">Comentarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- .menu-header -->
+        <li class="menu-header">Comedor </li><!-- /.menu-header -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-drumstick-bite"></i> <span class="menu-text">Platillos</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item has-child">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-list-alt"></i> <span class="menu-text">Menu</span>
+            </a> <!-- child menu -->
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Menu</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Tipo de Menu</a>
+                </li>
+            </ul><!-- /child menu -->
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-user-check"></i> <span class="menu-text">Asistencia</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-comments"></i> <span class="menu-text">Comentarios</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+        <!-- * .menu-objeto -->
+        <li class="menu-item">
+            <a href="#" class="menu-link">
+                <i class="menu-icon fas fa-utensils"></i> <span class="menu-text">Seleccion de menu</span>
+            </a>
+        </li>
+        <!-- / .menu-objeto -->
+    </ul>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="accordion2" class="card-expansion">
+            <div class="card card-expansion-item expanded">
+                <div class="card-header border-0" id="headingOne2">
+                    <button class="btn btn-reset d-flex justify-content-between w-100"
+                            data-toggle="collapse" data-target="#registroPlatillo"
+                            aria-expanded="true" aria-controls="registroPlatillo">
+                        <span>Registro de platillo</span>
+                        <span class="collapse-indicator"><i class="fa fa-fw fa-chevron-down"></i></span>
+                    </button>
+                </div>
+                <div id="registroPlatillo" class="collapse show"
+                     aria-labelledby="headingOne2" data-parent="#accordion2">
+                    <div class="card-body pt-0">
+                        <div class="form-layout form-layout-2">
+                            <form id="form-platillo">
+                                <input type="hidden" id="inputIdPlatillo" name="inputIdPlatillo">
+                                <div class="row no-gutters">
+                                    <div class="col-md-6 mg-t--1 mg-md-t-0">
+                                        <div class="form-group mg-md-l--1">
+                                            <label class="form-control-label">
+                                                Platillo:
+                                                <span class="badge badge-danger"><em>Requerido</em></span>
+                                            </label>
+                                            <input class="form-control-br mt-3-5" type="text"
+                                                   id="inputPlatillo" name="inputPlatillo"
+                                                   placeholder="Ingresa el nombre del platillo">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mg-t--1 mg-md-t-0">
+                                        <div class="form-group mg-md-l--1">
+                                            <label class="form-control-label mg-b-0-force">
+                                                Tipo de platillo:
+                                                <span class="badge badge-danger"><em>Requerido</em></span>
+                                            </label>
+                                            <div class="input-group-br">
+                                                <select id="selectTPlatillo" name="selectTPlatillo"
+                                                        class="form-control-br"
+                                                        data-placeholder="Elige un tipo">
+                                                    <option label="Elige el tipo de platillo" value="" selected></option>
+                                                    @foreach (var tipo in ViewBag.tipoPlatillo)
+                                                    {
+                                                        <option value="@tipo.Id">@tipo.Descripcion</option>
+                                                    }
+                                                </select>
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-light"
+                                                            data-toggle="modal" data-target="#configTPlatillos"
+                                                            title="Show menu">
+                                                        <i class="fa fa-cog fa-fw"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-layout-footer mg-md-l--1 bd pd-20 bd-t-0">
+                                    <button id="btnGuardar" value="btnGuardar" class="btn btn-raised btn-wave bg-green">
+                                        <i class="fas fa-save"></i>&nbsp; Registrar
+                                    </button>
+                                    <button id="btnActualizar" value="btnActualizar" class="btn btn-raised btn-wave blue-grey">
+                                        <i class="fas fa-edit"></i>&nbsp; Actualizar
+                                    </button>
+                                    <button id="btnCancelar" value="btnCancelar" class="btn btn-raised bg-gray">
+                                        <i class="fas fa-ban"></i>&nbsp; Cancelar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.card -->
+        </div><!-- /#accordion2 -->
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <!-- .card-header -->
+            <div class="card-header">
+                <h5>Tabla de platillos</h5>
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab"
+                           href="#plat-activos">Platillos Activos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link show" data-toggle="tab"
+                           href="#plat-inactivos">Platillos Inactivos</a>
+                    </li>
+                </ul>
+            </div><!-- /.card-header -->
+            <!-- .card-body -->
+            <div class="card-body">
+                <!-- .tab-content -->
+                <div id="myTabCard" class="tab-content">
+                    <div class="toolbar">
+                        <div class="mt-2 mb-2">
+                            <label class="switcher-control">
+                                <input type="checkbox" class="switcher-input" name="switch" value="Plato Fuerte">
+                                <span class="switcher-indicator"></span>
+                                <span class="switcher-label-on"><i class="fas fa-check"></i></span>
+                                <span class="switcher-label-off"><i class="fas fa-times"></i></span>
+                            </label>
+                            Plato fuerte
+                            <label class="switcher-control">
+                                <input type="checkbox" class="switcher-input" name="switch" value="Fruta">
+                                <span class="switcher-indicator"></span>
+                                <span class="switcher-label-on"><i class="fas fa-check"></i></span>
+                                <span class="switcher-label-off"><i class="fas fa-times"></i></span>
+                            </label>
+                            Fruta
+                            <label class="switcher-control">
+                                <input type="checkbox" class="switcher-input" name="switch" value="Postre">
+                                <span class="switcher-indicator"></span>
+                                <span class="switcher-label-on"><i class="fas fa-check"></i></span>
+                                <span class="switcher-label-off"><i class="fas fa-times"></i></span>
+                            </label>
+                            Postre
+                        </div>
+                        <form class="flex">
+                            <div class="input-group has-clearable mb-3">
+                                <button id="clear-search" type="button" class="close" aria-label="Close">
+                                    <span aria-hidden="true"><i class="fa fa-times-circle"></i></span>
+                                </button>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><span class="oi oi-magnifying-glass"></span></span>
+                                </div>
+                                <input id="buscador" type="text" class="form-control" placeholder="Buscar">
+                            </div><!-- /.input-group -->
+                        </form>
+                    </div>
+                    <div class="tab-pane fade active show" id="plat-activos">
+                        <div class="table-responsive">
+                            <table style="width: 100%;" id="platillos-activos">
+                                <thead>
+                                    <tr>
+                                        <th><span class="text-muted">Platillo</span></th>
+                                        <th><span class="text-muted">id tPlatillo</span></th>
+                                        <th><span class="text-muted">Tipo platillo</span></th>
+                                        <th><span class="text-muted">Acciones</span></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="plat-inactivos">
+                        <div class="table-responsive">
+                            <table style="width: 100%;" id="platillos-inactivos">
+                                <thead>
+                                    <tr>
+                                        <th><span class="text-muted">Platillo</span></th>
+                                        <th><span class="text-muted">id tPlatillo</span></th>
+                                        <th><span class="text-muted">Tipo platillo</span></th>
+                                        <th><span class="text-muted">Acciones</span></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div><!-- /.tab-content -->
+            </div><!-- /.card-body -->
+        </div>
+    </div>
+</div>
+
+@section js_modelo
+{
+    <script src="~/Content/js/site/platillos/platillo_funciones.js"></script>
+}
