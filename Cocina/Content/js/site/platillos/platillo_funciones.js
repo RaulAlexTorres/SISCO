@@ -156,10 +156,6 @@ function redirigirAccion() {
             actualizarPlatillo();
             break;
 
-        case "btnCancelar":
-            limpiarFormulario();
-            break;
-
         default:
             console.log(accion);
     }
